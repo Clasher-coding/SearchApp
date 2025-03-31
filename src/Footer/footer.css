@@ -1,0 +1,111 @@
+.ezy__footer7 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__footer7 {
+		padding: 60px 0 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__footer7,
+.ezy__footer7.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__footer7,
+.ezy__footer7.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+.dark .ezy__footer7,
+.ezy__footer7.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+}
+
+.ezy__footer7-nav .nav-link {
+	color: var(--bs-body-color);
+}
+
+.ezy__footer7-nav .nav-link:hover {
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}
+
+.ezy__footer7-social li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.ezy__footer7-social li:not(:last-child) {
+	margin-right: 20px;
+}
+
+.ezy__footer7-social li a {
+	color: var(--bs-body-color);
+	text-decoration: none;
+	font-size: 25px;
+	opacity: 0.5;
+	transition: opacity 0.35s ease-in-out;
+}
+
+.ezy__footer7-social li a:hover {
+	color: var(--ezy-theme-color);
+	opacity: 1;
+}
+
+.ezy__footer7-quick-links li {
+	margin-bottom: 8px;
+}
+
+.ezy__footer7-quick-links li a {
+	color: var(--bs-body-color);
+	opacity: 0.5;
+	text-decoration: none;
+	transition: color 0.35s ease-in-out;
+}
+
+.ezy__footer7-quick-links li a:hover {
+	color: var(--bs-body-color);
+	opacity: 1;
+}
+
+.ezy__footer7-copyright a {
+	color: var(--bs-body-color);
+	text-decoration: none;
+}
+
+.ezy__footer7 .form-control,
+.ezy__footer7 .form-select {
+	min-height: 42px;
+	line-height: 35px;
+	border-color: transparent;
+	background: rgba(163, 190, 241, 0.14);
+	border-radius: 10px;
+	color: var(--bs-body-color);
+}
+
+.ezy__footer7 .form-control:focus,
+.ezy__footer7 .form-select:focus {
+	border-color: #86b7fe;
+	box-shadow: none;
+}
