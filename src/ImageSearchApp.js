@@ -79,6 +79,7 @@ const ImageSearchApp = () => {
     if (nextPage <= totalPages) {
       setPage(nextPage);
       fetchImages(searchQuery, nextPage, true);
+      console.log("here is my conosle ")
     }
   };
 
